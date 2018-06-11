@@ -1,0 +1,77 @@
+object Form1: TForm1
+  Left = 371
+  Height = 500
+  Top = 139
+  Width = 496
+  Caption = 'modification_image'
+  ClientHeight = 500
+  ClientWidth = 496
+  DesignTimePPI = 120
+  LCLVersion = '1.8.2.0'
+  object imgImage: TImage
+    Left = 24
+    Height = 300
+    Top = 64
+    Width = 200
+  end
+  object imgModif: TImage
+    Left = 272
+    Height = 300
+    Top = 64
+    Width = 200
+  end
+  object btAfficher: TButton
+    Left = 184
+    Height = 40
+    Top = 8
+    Width = 128
+    Caption = 'Afficher l''image'
+    OnClick = btAfficherClick
+    TabOrder = 0
+  end
+  object btSymetrieV: TButton
+    Left = 24
+    Height = 31
+    Top = 408
+    Width = 112
+    Caption = 'Symetrie V'
+    OnClick = btSymetrieVClick
+    TabOrder = 1
+  end
+  object btSymetrieH: TButton
+    Left = 24
+    Height = 31
+    Top = 448
+    Width = 112
+    Caption = 'Symetrie H'
+    OnClick = btSymetrieHClick
+    TabOrder = 2
+  end
+  object btMiroirV: TButton
+    Left = 200
+    Height = 31
+    Top = 408
+    Width = 110
+    Caption = 'Miroir V'
+    OnClick = btMiroirVClick
+    TabOrder = 3
+  end
+  object btMiroirH: TButton
+    Left = 200
+    Height = 31
+    Top = 448
+    Width = 108
+    Caption = 'Miroir H'
+    OnClick = btMiroirHClick
+    TabOrder = 4
+  end
+  object btDoubleMiroir: TButton
+    Left = 360
+    Height = 31
+    Top = 408
+    Width = 112
+    Caption = 'Double Miroir'
+    OnClick = btDoubleMiroirClick
+    TabOrder = 5
+  end
+end
